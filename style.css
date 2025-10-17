@@ -1,0 +1,48 @@
+/* Estilos CSS para Mi Página Web Rosa */
+
+body {
+    /* Fondo Rosa */
+    background-color: #ffc0cb; 
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.contenido {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 40px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    /* Letras Cursivas */
+    font-style: italic; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #8b008b;
+    font-size: 2.5em;
+}
+
+/* Estilos específicos para la navegación */
+.navegacion {
+    margin-top: 30px;
+    border-top: 2px dashed #ff69b4; /* Línea de separación rosa */
+    padding-top: 20px;
+}
+
+.navegacion a {
+    color: #8b008b; /* Color de enlace */
+    text-decoration: none; /* Quitar el subrayado por defecto */
+    margin: 0 15px;
+    font-weight: bold;
+    display: inline-block;
+    transition: color 0.3s;
+}
+
+.navegacion a:hover {
+    color: #ff1493; /* Rosa fuerte al pasar el ratón */
+}
