@@ -1,0 +1,90 @@
+body {
+    background-color: #f7d9e9; /* Fondo rosa claro */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* Fondo de tarjeta blanco */
+    border-radius: 15px;
+    padding: 30px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    color: #a83a99; /* Rosa oscuro para el título */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 span {
+    font-size: 0.8em; /* Para emojis o íconos */
+    margin: 0 10px;
+}
+
+p {
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed #ffb6c1; /* Línea rosa punteada */
+    margin: 30px 0;
+}
+
+h2 {
+    color: #a83a99; /* Rosa oscuro para 'Mis Páginas Web' */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* --- ESTILOS DEL SHELF (ÁREA DE ENLACES/BOTONES) --- */
+.shelf {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+
+.shelf a {
+    color: #ffffff; 
+    background-color: #a83a99; 
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 12px 25px; 
+    border-radius: 10px; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    min-width: 150px; 
+    flex-grow: 1; 
+    max-width: 45%; 
+}
+
+.shelf a:hover {
+    background-color: #6a0572; 
+    transform: translateY(-2px); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el botón Suma */
+.shelf a.important {
+    background-color: #ffb6c1; 
+    color: #6a0572;
+    border: 2px solid #a83a99;
+}
+.shelf a.important:hover {
+    background-color: #ff9fb4;
+}
